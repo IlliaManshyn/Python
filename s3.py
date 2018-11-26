@@ -6,10 +6,6 @@ import argparse
 import os
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-bucket_name = 'mybucket'
-path_to_file = '/home/imanshyn/salt'
-filename = 'salt'
-
 # List of buckets
 def list_of_buckets():
     s3Resource = boto3.resource(
