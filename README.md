@@ -1,5 +1,5 @@
 # Python
-Before using s3.py you should define such env variables as:
+Before using s3.py you should create your own EC2 credentials and define env variables such as:
 
 ACCESS_KEY="EC2 access key"
 
